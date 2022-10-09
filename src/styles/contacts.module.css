@@ -1,0 +1,33 @@
+.contacts {
+    padding: 20px 70px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contacts_about {
+  width: 40%;
+}
+
+.contacts_skills {
+  width: 60%;
+  margin-left: 50px;
+}
+
+
+.contacts__link {
+    display: inline-block; 
+    overflow: hidden; 
+}
+
+.contacts__link img {
+transition: 1s;
+    display: block;
+    margin: 10px;
+}
+
+.contacts__link img:hover {
+    transform: scale(1.2);
+}

@@ -1,5 +1,5 @@
-.experience {
-    padding: 20px 70px;
+.profile {
+  padding: 20px 70px;
   min-height: 50px;
   width: 100%;
   display: flex;
@@ -7,11 +7,11 @@
   align-items: flex-start;
 }
 
-.experience_hobbies {
+.profile_about {
   width: 40%;
 }
 
-.experience_works {
+.profile_education {
   width: 60%;
   margin-left: 50px;
 }
